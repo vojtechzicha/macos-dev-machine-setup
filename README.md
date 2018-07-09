@@ -10,3 +10,8 @@ https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-exp
 - https://github.com/rbenv/rbenv#homebrew-on-macos
 - https://github.com/rbenv/rbenv#how-rbenv-hooks-into-your-shell
 - https://github.com/wesbos/hyperterm-cobalt2-theme
+
+# Step 2 - Git & GitHub
+
+ - brew install git
+ - http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
