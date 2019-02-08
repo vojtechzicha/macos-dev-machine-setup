@@ -1,3 +1,5 @@
+TODO! - Include https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+
 # Step 1 - Terminal
 
 https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
