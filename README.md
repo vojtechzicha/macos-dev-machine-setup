@@ -13,5 +13,9 @@ https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-exp
 
 # Step 2 - Git & GitHub
 
- - brew install git
- - http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
+- brew install git
+- http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
+
+# Visual Studio Code
+
+Install extension `Settings Sync`. Use GitHub PAT.
