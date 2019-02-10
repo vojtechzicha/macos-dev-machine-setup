@@ -105,7 +105,7 @@ SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
 SPACESHIP_USER_SHOW="true"
 
 alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
-alias brdu="brew bundle dump --force --describe"
+alias brdu="brew bundle --verbose && brew bundle dump --force --describe"
 
 alias ls='colorls --light --sort-dirs --report'
 alias lc='colorls --tree --light'
