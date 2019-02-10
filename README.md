@@ -1,5 +1,18 @@
 TODO! - Include https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+
+defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
 # Step 1 - Terminal
 
 https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
