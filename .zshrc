@@ -110,4 +110,6 @@ alias brdu="brew bundle --verbose && brew bundle dump --force --describe && git 
 alias ls='colorls --light --sort-dirs --report'
 alias lc='colorls --tree --light'
 
+alias c.='code .'
+
 eval "$(rbenv init -)"
