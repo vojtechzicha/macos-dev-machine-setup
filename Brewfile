@@ -16,6 +16,8 @@ brew "node"
 brew "ntfs-3g"
 # Ruby version manager
 brew "rbenv"
+# Internet file retriever
+brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
@@ -38,9 +40,7 @@ cask "slack"
 cask "twitch"
 cask "visual-studio-code"
 cask "caskroom/fonts/font-fira-code"
-# cask "caskroom/fonts/font-fira-mono"
 cask "caskroom/fonts/font-fira-mono-for-powerline"
-# cask "caskroom/fonts/font-fira-sans"
 cask "caskroom/fonts/font-firacode-nerd-font"
 cask "caskroom/fonts/font-input"
 cask "caskroom/fonts/font-mononoki-nerd-font-mono"
