@@ -7,8 +7,6 @@ cask "java"
 cask "osxfuse"
 # Automatic configure script builder
 brew "autoconf"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
 # GNU database manager
 brew "gdbm"
 # SSL/TLS cryptography library
@@ -29,8 +27,6 @@ brew "libunistring"
 brew "icu4c"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Perl compatible regular expressions library with a new API
-brew "pcre2"
 # Distributed revision control system
 brew "git"
 # Stores Git credentials for Visual Studio Team Services
@@ -78,6 +74,7 @@ cask "calibre"
 cask "discord"
 cask "docker"
 cask "firefox"
+cask "google-chrome"
 cask "google-drive-file-stream"
 cask "hyper"
 cask "intellij-idea-ce"
