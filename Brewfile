@@ -91,6 +91,7 @@ cask "steam"
 cask "twitch"
 cask "visual-studio-code"
 cask "vlc"
+cask "whatsapp"
 cask "zeplin"
 cask "caskroom/fonts/font-fira-code"
 cask "caskroom/fonts/font-fira-mono"
@@ -122,6 +123,5 @@ mas "com.microsoft.rdc.macos", id: 1295203466
 mas "com.microsoft.Word", id: 462054704
 mas "com.readdle.smartemail-Mac", id: 1176895641
 mas "cx.c3.theunarchiver", id: 425424353
-mas "desktop.WhatsApp", id: 1147396723
 mas "net.shinyfrog.bear", id: 1091189122
 mas "org.getgreenshot.Greenshot", id: 1103915944
