@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
-cask "java"
 cask "osxfuse"
 # Automatic configure script builder
 brew "autoconf"
@@ -78,7 +77,10 @@ cask "google-chrome"
 cask "google-drive-file-stream"
 cask "hyper"
 cask "intellij-idea-ce"
+cask "java"
+cask "jsui"
 cask "logitech-options"
+cask "nightowl"
 cask "pikopixel"
 cask "playonmac"
 cask "pocket-casts"
@@ -109,19 +111,19 @@ cask "caskroom/fonts/font-ubuntu"
 cask "caskroom/fonts/font-ubuntu-mono-derivative-powerline"
 cask "caskroom/fonts/font-ubuntu-nerd-font"
 cask "caskroom/fonts/font-ubuntumono-nerd-font"
-mas "com.apple.dt.Xcode", id: 497799835
-mas "com.apple.garageband10", id: 682658836
-mas "com.apple.iMovieApp", id: 408981434
-mas "com.apple.iWork.Keynote", id: 409183694
-mas "com.apple.iWork.Numbers", id: 409203825
-mas "com.apple.iWork.Pages", id: 409201541
-mas "com.crowdcafe.windowmagnet", id: 441258766
-mas "com.microsoft.Excel", id: 462058435
-mas "com.microsoft.OneDrive-mac", id: 823766827
-mas "com.microsoft.Powerpoint", id: 462062816
-mas "com.microsoft.rdc.macos", id: 1295203466
-mas "com.microsoft.Word", id: 462054704
-mas "com.readdle.smartemail-Mac", id: 1176895641
-mas "cx.c3.theunarchiver", id: 425424353
-mas "net.shinyfrog.bear", id: 1091189122
-mas "org.getgreenshot.Greenshot", id: 1103915944
+mas "Bear", id: 1091189122
+mas "GarageBand", id: 682658836
+mas "Greenshot", id: 1103915944
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "Spark", id: 1176895641
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
