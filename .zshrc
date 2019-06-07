@@ -112,4 +112,6 @@ alias lc='colorls --tree --light'
 
 alias c.='code .'
 
+alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "mail@vojtechzicha.com"'
+
 eval "$(rbenv init -)"
