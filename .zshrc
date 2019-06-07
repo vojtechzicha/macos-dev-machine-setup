@@ -107,8 +107,13 @@ SPACESHIP_USER_SHOW="true"
 alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
 alias brdu="brew bundle --verbose && brew bundle dump --force --describe && git add . && git commit -m 'Brew Bundle Update (Auto)' && git push"
 
+# Light theme
 alias ls='colorls --light --sort-dirs --report'
 alias lc='colorls --tree --light'
+
+# Dark theme
+alias ls='colorls --sort-dirs --report'
+alias lc='colorls --tree'
 
 alias c.='code .'
 
