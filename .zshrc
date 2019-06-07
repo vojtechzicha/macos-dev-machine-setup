@@ -107,13 +107,18 @@ SPACESHIP_USER_SHOW="true"
 alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
 alias brdu="brew bundle --verbose && brew bundle dump --force --describe && git add . && git commit -m 'Brew Bundle Update (Auto)' && git push"
 
-# Light theme
-alias ls='colorls --light --sort-dirs --report'
-alias lc='colorls --tree --light'
+#DETECT Dark mode
+DARK_STYLE="$(defaults read -g AppleInterfaceStyle 2> /dev/null)"
 
-# Dark theme
-alias ls='colorls --sort-dirs --report'
-alias lc='colorls --tree'
+if [ ${DARK_STYLE:-'Light'} = 'Dark' ]; then
+    # Dark theme
+    alias ls='colorls --sort-dirs --report'
+    alias lc='colorls --tree'
+else
+    # Light theme
+    alias ls='colorls --light --sort-dirs --report'
+    alias lc='colorls --tree --light'
+fi
 
 alias c.='code .'
 
