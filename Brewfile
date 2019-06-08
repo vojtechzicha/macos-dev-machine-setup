@@ -56,6 +56,8 @@ brew "telnet"
 brew "unzip"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # Tracks most-used directories to make cd smarter
