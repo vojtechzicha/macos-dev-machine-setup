@@ -113,6 +113,7 @@ cask "caskroom/fonts/font-ubuntu"
 cask "caskroom/fonts/font-ubuntu-mono-derivative-powerline"
 cask "caskroom/fonts/font-ubuntu-nerd-font"
 cask "caskroom/fonts/font-ubuntumono-nerd-font"
+mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
