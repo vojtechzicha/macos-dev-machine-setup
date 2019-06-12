@@ -38,6 +38,8 @@ brew "httpie"
 brew "libidn2"
 # Mac App Store command-line interface
 brew "mas"
+# Open source relational database management system
+brew "mysql-client"
 # Text-based UI library
 brew "ncurses"
 # Platform built on V8 to build network applications
@@ -89,6 +91,7 @@ cask "postman"
 cask "recordit"
 cask "rocket"
 cask "skype"
+cask "skype-for-business"
 cask "slack"
 cask "steam"
 cask "toggl"
