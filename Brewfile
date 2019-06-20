@@ -40,6 +40,8 @@ brew "libidn2"
 brew "mas"
 # Open source relational database management system
 brew "mysql-client"
+# Node version management
+brew "n"
 # Text-based UI library
 brew "ncurses"
 # Platform built on V8 to build network applications
@@ -48,6 +50,8 @@ brew "node"
 brew "ntfs-3g"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Interpreted, interactive, object-oriented programming language
+brew "python@2"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
