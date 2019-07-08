@@ -128,6 +128,7 @@ mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
+mas "Hotspot Shield", id: 771076721
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
