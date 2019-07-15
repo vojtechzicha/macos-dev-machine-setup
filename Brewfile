@@ -39,6 +39,8 @@ brew "libidn2"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
+brew "mysql"
+# Open source relational database management system
 brew "mysql-client"
 # Node version management
 brew "n"
@@ -90,6 +92,7 @@ cask "intellij-idea-ce"
 cask "java"
 cask "jsui"
 cask "logitech-options"
+cask "mactex-no-gui"
 cask "nightowl"
 cask "pikopixel"
 cask "playonmac"
@@ -126,6 +129,7 @@ cask "caskroom/fonts/font-ubuntu-nerd-font"
 cask "caskroom/fonts/font-ubuntumono-nerd-font"
 mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
+mas "Dato", id: 1470584107
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
 mas "Hotspot Shield", id: 771076721
