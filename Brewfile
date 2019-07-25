@@ -129,7 +129,6 @@ cask "caskroom/fonts/font-ubuntu-nerd-font"
 cask "caskroom/fonts/font-ubuntumono-nerd-font"
 mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
-mas "Dato", id: 1470584107
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
 mas "Hotspot Shield", id: 771076721
