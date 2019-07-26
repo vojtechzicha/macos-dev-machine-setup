@@ -124,4 +124,6 @@ alias c.='code .'
 
 alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "mail@vojtechzicha.com"'
 
+alias minikubeup='minikube start --memory=16384 --cpus=2 --kubernetes-version=1.14.2 --vm-driver=xhyve'
+
 eval "$(rbenv init -)"

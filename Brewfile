@@ -8,6 +8,8 @@ cask "osxfuse"
 brew "autoconf"
 # GNU database manager
 brew "gdbm"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext", link: true
 # SSL/TLS cryptography library
 brew "openssl"
 # Perl compatible regular expressions library
@@ -20,6 +22,8 @@ brew "sqlite"
 brew "xz"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
+# Docker Machine driver for xhyve
+brew "docker-machine-driver-xhyve"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # C/C++ and Java libraries for Unicode and globalization
@@ -34,6 +38,8 @@ brew "git-credential-manager"
 brew "git-flow"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# The Kubernetes package manager
+brew "kubernetes-helm"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # Mac App Store command-line interface
@@ -66,6 +72,8 @@ brew "unzip"
 brew "wget"
 # Run Windows applications without a copy of Microsoft Windows
 brew "wine"
+# Lightweight macOS virtualization solution based on FreeBSD's bhyve
+brew "xhyve"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
@@ -93,6 +101,8 @@ cask "java"
 cask "jsui"
 cask "logitech-options"
 cask "mactex-no-gui"
+cask "minecraft"
+cask "minikube"
 cask "nightowl"
 cask "pikopixel"
 cask "playonmac"
