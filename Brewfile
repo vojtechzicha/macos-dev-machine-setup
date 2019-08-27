@@ -88,6 +88,7 @@ brew "zip"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+cask "adoptopenjdk"
 cask "1password"
 cask "android-studio"
 cask "archi"
