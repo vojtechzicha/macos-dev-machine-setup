@@ -157,7 +157,7 @@ module.exports = {
     "hyperterm-bold-tab",
     "hyper-tabs-enhanced",
     // Enable for light color
-    // "hyper-papercolor",
+    "hyper-papercolor",
     "hyper-opacity",
     "hyper-simple-highlight-active-session",
     "hypercwd",

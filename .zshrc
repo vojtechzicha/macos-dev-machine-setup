@@ -121,9 +121,12 @@ else
 fi
 
 alias c.='code .'
-
 alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "mail@vojtechzicha.com"'
+alias minikubeup='minikube start --memory=16384 --cpus=4 --kubernetes-version=1.14.2 --vm-driver=xhyve'
+alias kaf='kubectl apply -f'
+alias kdf='kubectl delete -f'
 
-alias minikubeup='minikube start --memory=16384 --cpus=2 --kubernetes-version=1.14.2 --vm-driver=xhyve'
+alias light='rm ~/.hyper.js && cp ~/.hyper.js.light ~/.hyper.js'
+alias dark='rm ~/.hyper.js && cp ~/.hyper.js.dark ~/.hyper.js'
 
 eval "$(rbenv init -)"

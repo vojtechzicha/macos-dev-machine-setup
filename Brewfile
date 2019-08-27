@@ -26,6 +26,8 @@ brew "python"
 brew "docker-machine-driver-xhyve"
 # C string library for manipulating Unicode strings
 brew "libunistring"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
 # Play, record, convert, and stream audio and video
@@ -38,10 +40,10 @@ brew "git-credential-manager"
 brew "git-flow"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Load testing and performance measurement application
+brew "jmeter"
 # The Kubernetes package manager
 brew "kubernetes-helm"
-# International domain name library (IDNA2008, Punycode and TR46)
-brew "libidn2"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
@@ -154,4 +156,5 @@ mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
 mas "Xcode", id: 497799835
