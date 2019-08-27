@@ -121,7 +121,8 @@ else
 fi
 
 alias c.='code .'
-alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "mail@vojtechzicha.com"'
+alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "vojtech@zicha.name"'
+alias git-email-eman='git config user.name "Vojtěch Zicha" && git config user.email "vojtech.zicha@eman.cz"'
 alias minikubeup='minikube start --memory=16384 --cpus=4 --kubernetes-version=1.14.2 --vm-driver=xhyve'
 alias kaf='kubectl apply -f'
 alias kdf='kubectl delete -f'
