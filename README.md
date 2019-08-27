@@ -1,5 +1,10 @@
-TODO! - Include https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+# Mac OS Dev Setup
 
+These are the files I use to set up my MacBook Pro 13'' 2016.
+
+## Shell updates
+
+```sh
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
@@ -12,25 +17,16 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+```
 
-# Step 1 - Terminal
+## Manual install applications
 
-https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7
+- AdGuard
+- ABRA FlexiBee
 
-- https://gist.github.com/AlexBlokh/eddc5e0dab0fb07edebd6d12b6be63c5
-- https://github.com/lukechilds/zsh-nvm
-- https://github.com/zsh-users/zsh-syntax-highlighting
-- https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-- https://github.com/athityakumar/colorls#installation
-- https://github.com/rbenv/rbenv#homebrew-on-macos
-- https://github.com/rbenv/rbenv#how-rbenv-hooks-into-your-shell
-- https://github.com/wesbos/hyperterm-cobalt2-theme
+## PlayOnMac installations
 
-# Step 2 - Git & GitHub
-
-- brew install git
-- http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
-
-# Visual Studio Code
-
-Install extension `Settings Sync`. Use GitHub PAT.
+- Enterprise Architect
+- Hadaka Shitsuji
+- No Thank You!!!
+- Simutrans
