@@ -30,3 +30,5 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 - Hadaka Shitsuji
 - No Thank You!!!
 - Simutrans
+- Steam
+  - Age of Empires II (see <https://gist.github.com/contra/554f541f7fa93c12499e0829439860eb>)
