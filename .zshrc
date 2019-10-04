@@ -8,7 +8,7 @@ export ZSH="/Users/vojtechzicha/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -26,8 +26,14 @@ ZSH_THEME="spaceship"
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -83,9 +89,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -95,39 +98,25 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-SPACESHIP_PROMPT_ADD_NEWLINE="true"
-SPACESHIP_CHAR_SYMBOL=" \uf0e7 "
-SPACESHIP_CHAR_PREFIX="\uf296"
-SAPCESHIP_CHAR_SUFFIX=(" ")
-SPACESHIP_CHAR_COLOR_SUCCESS="yellow"
-SPACESHIP_PROMPT_DEFAULT_PREFIX="$USER"
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
-SPACESHIP_USER_SHOW="true"
+# GnuPG Yubikey configuration
+
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
+
+# Add completions
+
+fpath=(/usr/local/share/zsh/site-functions $fpath)
+
+# Add basic aliases
 
 alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
 alias brdu="brew bundle --verbose && brew bundle dump --force --describe && git add . && git commit -m 'Brew Bundle Update (Auto)' && git push"
 
-#DETECT Dark mode
-DARK_STYLE="$(defaults read -g AppleInterfaceStyle 2> /dev/null)"
-
-if [ ${DARK_STYLE:-'Light'} = 'Dark' ]; then
-    # Dark theme
-    alias ls='colorls --sort-dirs --report'
-    alias lc='colorls --tree'
-else
-    # Light theme
-    alias ls='colorls --light --sort-dirs --report'
-    alias lc='colorls --tree --light'
-fi
-
 alias c.='code .'
-alias git-email-github='git config user.name "Vojtěch Zicha" && git config user.email "vojtech@zicha.name"'
-alias git-email-eman='git config user.name "Vojtěch Zicha" && git config user.email "vojtech.zicha@eman.cz"'
-alias minikubeup='minikube start --memory=16384 --cpus=4 --kubernetes-version=1.14.2 --vm-driver=xhyve'
 alias kaf='kubectl apply -f'
 alias kdf='kubectl delete -f'
 
-alias light='rm ~/.hyper.js && cp ~/.hyper.js.light ~/.hyper.js'
-alias dark='rm ~/.hyper.js && cp ~/.hyper.js.dark ~/.hyper.js'
+# Enable Ruby manager
 
 eval "$(rbenv init -)"
