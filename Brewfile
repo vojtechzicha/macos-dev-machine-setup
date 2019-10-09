@@ -13,6 +13,8 @@ brew "aws-iam-authenticator"
 brew "python"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Distributed revision control system
@@ -49,6 +51,10 @@ brew "pinentry-mac"
 brew "python@2"
 # Ruby version manager
 brew "rbenv"
+# Library for loading images as SDL surfaces and textures
+brew "sdl2_image"
+# Library for using TrueType fonts in SDL applications
+brew "sdl2_ttf"
 # User interface to the TELNET protocol (built from macOS Sierra sources)
 brew "telnet"
 # Extraction utility for .zip compressed archives
@@ -75,6 +81,7 @@ cask "1password"
 cask "adobe-acrobat-reader"
 cask "archi"
 cask "calibre"
+cask "dbeaver-community"
 cask "discord"
 cask "docker"
 cask "font-fira-code"

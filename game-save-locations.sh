@@ -12,3 +12,8 @@ ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Games/Hadaka\ Shitsuji/s
 
 rm -rf ~/Library/PlayOnMac/wineprefix/Games/drive_c/bin/nothankyou/save
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Games/No\ Thank\ You/save ~/Library/PlayOnMac/wineprefix/Games/drive_c/bin/nothankyou/save
+
+# Simutrans
+
+rm -rf ~/Library/Simutrans
+ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/Simutrans ~/Library/Simutrans
