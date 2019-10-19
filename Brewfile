@@ -100,6 +100,7 @@ cask "font-ubuntu"
 cask "font-ubuntu-mono-derivative-powerline"
 cask "font-ubuntu-nerd-font"
 cask "font-ubuntumono-nerd-font"
+cask "fork"
 cask "gifox"
 cask "google-chrome"
 cask "google-drive-file-stream"
@@ -125,17 +126,22 @@ cask "twitch"
 cask "vanilla"
 cask "visual-studio-code"
 cask "vlc"
+cask "yubico-yubikey-manager"
 mas "Agenda", id: 1287445660
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
 mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
