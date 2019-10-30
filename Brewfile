@@ -133,6 +133,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "yubico-yubikey-manager"
 mas "Agenda", id: 1287445660
+mas "Apple Configurator 2", id: 1037126344
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
 mas "iMovie", id: 408981434
