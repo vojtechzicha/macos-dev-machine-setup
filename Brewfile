@@ -40,6 +40,8 @@ brew "mysql-client"
 brew "node"
 # Read-write NTFS driver for FUSE
 brew "ntfs-3g"
+# Development kit for the Java programming language
+brew "openjdk"
 # SSL/TLS cryptography library
 brew "openssl"
 # YubiKey personalization library and tool
@@ -82,7 +84,6 @@ brew "zsh-completions"
 brew "linux-noah/noah/noah"
 cask "1password"
 cask "adobe-acrobat-reader"
-cask "archi"
 cask "calibre"
 cask "datovka"
 cask "dbeaver-community"
@@ -131,6 +132,7 @@ cask "twitch"
 cask "vanilla"
 cask "visual-studio-code"
 cask "vlc"
+cask "xnconvert"
 cask "yubico-yubikey-manager"
 mas "Agenda", id: 1287445660
 mas "Apple Configurator 2", id: 1037126344
