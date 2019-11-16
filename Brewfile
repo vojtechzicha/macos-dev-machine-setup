@@ -24,14 +24,14 @@ brew "git"
 brew "git-flow"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# The Kubernetes package manager
+brew "helm"
 # Command-line tools for OpenPGP-related operations
 brew "hopenpgp-tools"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# The Kubernetes package manager
-brew "kubernetes-helm"
 # Mac App Store command-line interface
 brew "mas"
 # Open source relational database management system
