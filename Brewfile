@@ -81,6 +81,7 @@ cask "logitech-options"
 cask "mactex"
 cask "microsoft-edge-beta"
 cask "minecraft"
+cask "parallels"
 cask "pikopixel"
 cask "postman"
 cask "skype"
@@ -93,6 +94,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "xnconvert"
 mas "1Password 7", id: 1333542190
+mas "Bus Driver", id: 442373698
 mas "GarageBand", id: 682658836
 mas "Greenshot", id: 1103915944
 mas "iMovie", id: 408981434
