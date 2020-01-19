@@ -12,6 +12,8 @@ brew "git-flow"
 brew "gnupg"
 # Enable the use of PKCS#11 tokens with GnuPG
 brew "gnupg-pkcs11-scd"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # The Kubernetes package manager
 brew "helm"
 # Command-line tools for OpenPGP-related operations
@@ -28,6 +30,8 @@ brew "node"
 brew "openjdk"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
 # Interpreted, interactive, object-oriented programming language
 brew "python"
 # Interpreted, interactive, object-oriented programming language
@@ -79,7 +83,7 @@ cask "java"
 cask "kube-forwarder"
 cask "logitech-options"
 cask "mactex"
-cask "microsoft-edge-beta"
+cask "microsoft-edge"
 cask "minecraft"
 cask "parallels"
 cask "pikopixel"
@@ -100,12 +104,8 @@ mas "Greenshot", id: 1103915944
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
