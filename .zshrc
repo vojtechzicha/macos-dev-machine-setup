@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,9 +114,11 @@ alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
 alias brdu="brew bundle --verbose && brew bundle dump --force --describe && git add . && git commit -m 'Brew Bundle Update (Auto)' && git push"
 
 alias c.='code .'
-alias kaf='kubectl apply -f'
-alias kdf='kubectl delete -f'
 
 # Enable Ruby manager
 
 eval "$(rbenv init -)"
+
+# Enable dotnet tools directory
+
+export PATH="$PATH:~/.dotnet/tools"
