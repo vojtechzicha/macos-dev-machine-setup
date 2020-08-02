@@ -1,54 +1,55 @@
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-# Distributed revision control system
-brew "git"
-# GNU Pretty Good Privacy (PGP) package
+tap "homebrew/services"
+tap "mongodb/brew"
+brew "bat"
+brew "diff-so-fancy"
+brew "exa"
+brew "fzf"
 brew "gnupg"
-# Command-line tools for OpenPGP-related operations
+brew "helm"
 brew "hopenpgp-tools"
-# Modern load testing tool, using Go and JavaScript
-brew "k6"
-# Kubernetes command-line interface
+brew "k9s"
 brew "kubernetes-cli"
-# Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
 brew "node"
-# Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
-# Internet file retriever
+brew "watch"
 brew "wget"
-# JavaScript package manager
 brew "yarn"
-# YubiKey personalization library and tool
 brew "ykpers"
-# Tool for managing your YubiKey configuration
-brew "ykman", link: false
+brew "ykman"
+brew "zoxide"
+brew "zsh"
+brew "heroku/brew/heroku"
+brew "mongodb/brew/mongosh"
+cask "datovka"
 cask "docker"
-cask "font-fira-code"
-cask "font-fira-mono"
-cask "font-fira-sans"
-cask "font-firacode-nerd-font"
-cask "font-mononoki-nerd-font"
-cask "font-source-code-pro"
-cask "font-ubuntu"
+cask "font-meslo-lg"
+cask "font-meslolg-nerd-font"
 cask "gifox"
+cask "gitup"
 cask "google-chrome"
 cask "iterm2"
 cask "kube-forwarder"
-cask "plex"
+cask "minecraft"
 cask "postman"
+cask "razer-synapse"
+cask "scroll-reverser"
+cask "skype-for-business"
 cask "slack"
 cask "toggl"
 cask "visual-studio-code"
+cask "vlc"
 mas "Adblock Plus", id: 1432731683
 mas "Bear", id: 1091189122
 mas "Grammarly for Safari", id: 1462114288
 mas "Greenshot", id: 1103915944
+mas "Hotspot Shield", id: 771076721
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
@@ -58,3 +59,4 @@ mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835
