@@ -41,7 +41,7 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 
 ## Add basic aliases
 
-alias brup="brew update && brew upgrade && brew cask upgrade && mas upgrade"
+alias brup="brew update && brew upgrade && brew upgrade --cask && mas upgrade"
 
 alias c='code'
 alias c.='code .'
@@ -104,12 +104,12 @@ HEROKU_AC_ZSH_SETUP_PATH=/Users/vojtechzicha/Library/Caches/heroku/autocomplete/
 
 secret () {
         output=~/"${1}".$(date +%s).enc
-        gpg --encrypt --armor --output ${output} -r 0x10372922077C272D "${1}" && echo "${1} -> ${output}"
+        gpg --encrypt --armor --output ${output} -r 0x909C5713A7BE46A3 "${1}" && echo "${1} -> ${output}"
 }
 
 reveal () {
         output=$(echo "${1}" | rev | cut -c16- | rev)
-        gpg --decrypt --output ${output} "${1}" && echo "${1} -> ${output}"
+        gpg --decrypt --output ${output} -r 0x909C5713A7BE46A3  "${1}" && echo "${1} -> ${output}"
 }
 
 # eval $(gpg-agent --daemon)
